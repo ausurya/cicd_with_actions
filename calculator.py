@@ -12,16 +12,9 @@ def calculate(operation: str, x: int, y: int) -> int:
     """
     if operation == "addition":
         return x+y
-    
     if operation == "subtraction":
         return x-y
-    
     if operation == "multiplication":
         return x*y
-    
     if operation == "division":
         return x/y
-
-
-    
-    
